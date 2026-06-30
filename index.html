@@ -7,27 +7,22 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Header merupakan bagian paling atas website yang pada umumnya terdiri dari logo, judul website dan menu navigassi -->
     <header>
-      <h1>Belajar HTML</h1>
-
-      <!-- Nav merupakan tempat yang disediakan khusus untuk menu navigasi -->
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Fitur</a>
-        <a href="#">Kontak</a>
-        <a href="#">Tentang</a>
-      </nav>
+      <div class="container">
+        <h1>Belajar HTML</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Fitur</a>
+          <a href="#">Kontak</a>
+          <a href="#">Tentang</a>
+        </nav>
+      </div>
     </header>
 
-    <!-- Main merupakan konten utama dari webpage dimana satu webpage disarankan hanya memiliki satu main -->
     <main>
-      <!-- Section digunakan untuk mengelompokan suatu konten yang memiliki tema atau topik yang sama dalam ssatu webpage -->
-      <section>
-        <!-- Div merupakan sebuah container atau wadah umum untuk mengelompokan suatu element dimana dulu Div digunakan untuk membangun ssemua struktur web -->
-        <div>
-          <h2>Belajar Semantik</h2>
-
+      <section class="utama">
+        <div class="container">
+          <h2>Belajar HTML Semantik</h2>
           <p>
             Menggunakan HTML Semantik dengan sesuai agar lebih mudah dipahami
             manusia atau search engine
@@ -35,11 +30,9 @@
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>Topik</h2>
-
-          <!-- Article merupakan konten standalone seperti artikel berita, posting blog, produk layanan, dll -->
+      <section class="fitur">
+        <div class="container">
+          <h2>Fitur Kami</h2>
           <article>
             <h3>Beginer Friendly</h3>
             <p>
@@ -64,7 +57,6 @@
         </div>
       </section>
     </main>
-    <!-- Footer merupakan bagian paling akhri website yang pada umumnya terdiri dari copyright, kontak, social media, dll -->
     <footer>
       <p>&copy; 2026 Joash Chandra-003. All Rights Reserved</p>
     </footer>

@@ -1,1 +1,67 @@
-/* code here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(51, 127, 226);
+  color: white;
+  padding: 20px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  font-size: 24px;
+}
+
+.utama {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: whitesmoke;
+}
+
+.utama h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 25px;
+}
+
+.fitur {
+  padding: 60px;
+}
+
+.fitur h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
